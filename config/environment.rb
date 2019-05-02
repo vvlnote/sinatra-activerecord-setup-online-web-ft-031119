@@ -1,3 +1,4 @@
+require 'sinatra'
 ENV['SINATRA_ENV'] ||= "development"
 
 configure :development do
